@@ -14,7 +14,7 @@
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rimraf www/ || true",
     "deploy": "npm run build && chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
-    "build": "npm install && npm audit fix && npm run clean && tsc && xcopy /E /I /Y src\\config www\\config && xcopy /E /I /Y .elasticbeanstalk www\\.elasticbeanstalk && copy .npmrc www\\.npmrc && copy package.json www\\package.json && cd www && powershell Compress-Archive -Path * -DestinationPath Archive.zip && cd ..",
+    "build": "npm install && npm audit fix && npm run clean && tsc && cp /E /I /Y src\\config www\\config && cp /E /I /Y .elasticbeanstalk www\\.elasticbeanstalk && copy .npmrc www\\.npmrc && copy package.json www\\package.json && cd www && powershell Compress-Archive -Path * -DestinationPath Archive.zip && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
