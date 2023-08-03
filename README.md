@@ -67,6 +67,12 @@ The e2e tests are using Protractor and Jasmine.
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
 
+## Project Link
+
+Frontend: http://truongnd15-bucket.s3-website-us-east-1.amazonaws.com
+
+Backend: truongnd15-udagram-api-dev.us-east-1.elasticbeanstalk.com
+
 ## License
 
 [License](LICENSE.txt)
