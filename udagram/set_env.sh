@@ -6,4 +6,5 @@ export AWS_BUCKET=arn:aws:s3:::truongnd15-bucket
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=mysecretstring
+export AWS_DEFAULT_REGION = us-east-1
 export URL=http://localhost:8100
