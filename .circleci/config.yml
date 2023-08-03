@@ -29,12 +29,12 @@ jobs:
       - run:
           name: Front-End Lint
           command: |
-            npm run frontend:build
+            npm run frontend:lint
       # TODO: Build the frontend app
       - run:
           name: Front-End Build
           command: |
-            echo "TODO: Build the frontend app"
+            npm run frontend:build
       # TODO: Build the backend API      
       - run:
           name: API Build
